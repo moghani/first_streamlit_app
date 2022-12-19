@@ -40,4 +40,5 @@ my_data_row = my_cur.fetchall()
 streamlit.header("Fruit Load contains:")
 streamlit.dataframe(my_data_row)
 
-
+add_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
+streamlit.text('Thanks for adding !!')
